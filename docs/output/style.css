@@ -1,0 +1,45 @@
+body{
+    background-color: lightcoral;
+    margin: 5px;
+
+}
+button {
+    color: #016898;
+}
+  
+.cardemployee-card{
+    fill: #e9ec22;
+}
+  
+button:hover {
+    color: #31be1e;
+}
+  
+button:hover .emailIcon {
+    fill: #ca19c1;
+}
+
+@media only screen and (min-width: 768px), (min-resolution: 150dpi) {
+    p {padding: 30px;}
+  }
+
+  .normal {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.list-group-item{
+    font-style: italic;
+    font-size: normal;
+    color: turquoise;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
